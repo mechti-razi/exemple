@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{background-color: blue;}
+        fieldset{
+            position: relative;
+            top: 150px;
+            left: 35%;
+            background-color: white;
+            border-radius: 11px;
+            width: 30%;
+
+        }
+        input,button{width: 90%;display: block;border-radius: 10px;height: 30px;}
+        button{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form action="interface_chat.php" method="post">
+        <fieldset>
+            <h1>CONNEXION</h1>
+            <br>
+            <p>Adresse Mail</p>
+            <input type="text" required name="add">
+            <p>Mot de passe</p>
+            <input type="text" name="mdp">
+            <br>
+            <button name="bt">Connexion</button>
+            <p>vous n'aves pas de compte ?<a href="inscription.html">créer un compte</a></p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
